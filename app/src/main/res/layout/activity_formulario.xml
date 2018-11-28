@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity_formulario">
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="521dp"
+        android:layout_marginStart="8dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/form_titulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24sp"
+            android:gravity="center"
+            android:text="@string/form_titulo"
+            android:textColor="@android:color/black"
+            android:textSize="48sp" />
+
+        <TextView
+            android:id="@+id/form_exp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24sp"
+            android:layout_marginBottom="24sp"
+            android:gravity="center"
+            android:text="@string/form_exp" />
+
+        <Button
+            android:id="@+id/btn_buscar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="290sp"
+            android:onClick="buscar"
+            android:text="@string/btnbuscar"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="172dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="170dp"
+        android:layout_height="281dp"
+        android:layout_marginTop="184dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toEndOf="@+id/linearLayout"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20sp"
+            android:gravity="left"
+            android:text="@string/form_subtitulo2"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/marca_busq"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/marca" />
+
+        <EditText
+            android:id="@+id/edit_marca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/pulgadas_busq"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pulgadas" />
+
+        <EditText
+            android:id="@+id/edit_pulgadas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/suspension_busq"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/suspension" />
+
+        <EditText
+            android:id="@+id/edit_suspension"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="194dp"
+        android:layout_height="281dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="184dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20sp"
+            android:gravity="left"
+            android:text="@string/form_subtitulo1"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/marca_form"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/marca" />
+
+        <Spinner
+            android:id="@+id/spinner_marca"
+            android:layout_width="match_parent"
+            android:layout_height="46dp" />
+
+        <TextView
+            android:id="@+id/pulgadas_form"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pulgadas" />
+
+        <RadioGroup
+            android:id="@+id/grupo_pulgadas"
+            android:layout_width="match_parent"
+            android:layout_height="100sp">
+
+            <RadioButton
+                android:id="@+id/rb1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/rb1" />
+
+            <RadioButton
+                android:id="@+id/rb2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/rb2" />
+
+            <RadioButton
+                android:id="@+id/rb3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/rb3" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/suspension_form"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/suspension" />
+
+        <CheckBox
+            android:id="@+id/check"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/check" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

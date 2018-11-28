@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity_BDBicis">
+
+    <ImageView
+        android:id="@+id/mer_d_26"
+        android:layout_width="272dp"
+        android:layout_height="220dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="24dp"
+        android:contentDescription="@string/imagen"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/merida_doble_26" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="181dp"
+        android:layout_height="251dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="252dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/marca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/marca"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/marca_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/pulgadas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pulgadas"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/pulgadas_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/suspension"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/suspension"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/suspension_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="179dp"
+        android:layout_height="251dp"
+        android:layout_marginTop="252dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toEndOf="@+id/linearLayout2"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/cambio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cambio"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/cambio_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/mandos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mandos"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/mandos_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/peso"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/peso"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/peso_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/mer_d_27"
+        android:layout_width="272dp"
+        android:layout_height="220dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="24dp"
+        android:contentDescription="@string/imagen"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/merida_doble_27_5" />
+
+    <ImageView
+        android:id="@+id/mer_d_29"
+        android:layout_width="272dp"
+        android:layout_height="220dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="24dp"
+        android:contentDescription="@string/imagen"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/merida_doble_29" />
+
+    <ImageView
+        android:id="@+id/mer_r_26"
+        android:layout_width="272dp"
+        android:layout_height="220dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="24dp"
+        android:contentDescription="@string/imagen"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/merida_rigida_26" />
+
+    <ImageView
+        android:id="@+id/mer_r_27"
+        android:layout_width="272dp"
+        android:layout_height="220dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="24dp"
+        android:contentDescription="@string/imagen"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/merida_rigida_27_5" />
+
+    <ImageView
+        android:id="@+id/mer_r_29"
+        android:layout_width="272dp"
+        android:layout_height="220dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="24dp"
+        android:contentDescription="@string/imagen"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/merida_rigida_29" />
+
+    <ImageView
+        android:id="@+id/mon_d_27"
+        android:layout_width="272dp"
+        android:layout_height="220dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="24dp"
+        android:contentDescription="@string/imagen"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/mon_doble_27_5" />
+
+    <ImageView
+        android:id="@+id/mon_d_29"
+        android:layout_width="272dp"
+        android:layout_height="220dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="24dp"
+        android:contentDescription="@string/imagen"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/mon_doble_29" />
+
+    <ImageView
+        android:id="@+id/mon_r_27"
+        android:layout_width="272dp"
+        android:layout_height="220dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="24dp"
+        android:contentDescription="@string/imagen"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/mon_rigida_27_5" />
+
+    <ImageView
+        android:id="@+id/mon_r_29"
+        android:layout_width="272dp"
+        android:layout_height="220dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="24dp"
+        android:contentDescription="@string/imagen"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/mon_rigida_29" />
+</android.support.constraint.ConstraintLayout>

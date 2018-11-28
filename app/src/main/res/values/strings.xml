@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name"><b>Bicycle</b></string>
+    <string name="main_titulo"><b>XC</b></string>
+    <string name="main_p1">¿Sobre qué quieres aprender hoy?</string>
+    <string name="main_btn1">Modalidades</string>
+    <string name="main_btn2">Bicicletas</string>
+    <string name="form_titulo">Bicicletas</string>
+    <string name="form_exp">Rellene el Formulario o los campos de búsqueda para encontrar una bicicleta</string>
+    <string name="form_subtitulo1"><b>Formulario</b></string>
+    <string name="form_subtitulo2"><b>Búsqueda</b></string>
+    <string name="marca">Marca:</string>
+    <string name="pulgadas">Pulgadas:</string>
+    <string name="suspension">Suspension:</string>
+    <string name="check">Doble</string>
+    <string name="btnbuscar">Buscar</string>
+    <string name="rb1">26\"</string>
+    <string name="rb2">27\'5\"</string>
+    <string name="rb3">29\"</string>
+    <string name="cambio">Cambio:</string>
+    <string name="mandos">Mandos:</string>
+    <string name="peso">Peso:</string>
+    <string name="imagen">Imagen de la bicicleta</string>
+</resources>
